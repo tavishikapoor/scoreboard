@@ -7,7 +7,7 @@ html body {
 
 body .table  {
     
-    background-color: #155A37;
+    background-color: #116d70;
     color: white;
     margin: 40% auto;
     text-transform: uppercase;
@@ -15,18 +15,19 @@ body .table  {
     font-size: 24px;
     border-radius: 9px;
     overflow: hidden;
+    
 }
 
-body .table .base-row {
-    background-color: #29926F !important;
+/* body .table .base-row {
+    background-color: #3e56a8 !important;
     
 
 }
 
 body .table .base-row2 {
-    background-color: #29926F !important;
+    background-color: #3e56a8 !important;
     color: yellow !important;
-}
+} */
 
 .nowrap {
     white-space:nowrap;
