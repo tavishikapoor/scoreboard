@@ -1,39 +1,119 @@
-
-html body {
-    background-color: #000;
-    font-family: 'Nunito', sans-serif;
-    margin: 0;
+.scoreboard {
+  text-align: center;
 }
 
-body .table  {
-    
-    background-color: #116d70;
-    color: white;
-    margin: 40% auto;
-    text-transform: uppercase;
-    text-align: center;
-    font-size: 24px;
-    border-radius: 9px;
-    overflow: hidden;
-    
+.scoreboard .timer-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: .5em 1.5em;
 }
 
-/* body .table .base-row {
-    background-color: #3e56a8 !important;
-    
-
+.scoreboard .timer-row .start-timer {
+  background: #a30e0e;
+  font-size: 15px;
+  padding: .5em 1.5em;
+  border: 3px solid white;
+  color: white;
+  border-radius: .2em;
 }
 
-body .table .base-row2 {
-    background-color: #3e56a8 !important;
-    color: yellow !important;
-} */
-
-.nowrap {
-    white-space:nowrap;
+.scoreboard .timer-row .timer {
+  font-size: 21px;
+  padding-top: .4em;
+  font-weight: bold;
 }
 
-body .table>:not(caption)>*>* {
-    padding: 1rem 0.25rem;
-
+.scoreboard .container {
+  font-size: 16px;
+  display: inline-block;
+  margin: 1em 2em;
+  padding: .5em 1em;
+  text-align: center;
 }
+
+.scoreboard .container .player-name {
+  background: #0ba6bb;
+  padding: .5em 6em;
+  border: 3px solid white;
+  color: white;
+  border-radius: .2em;
+}
+
+.scoreboard .container .score,
+.scoreboard .container .score-p1,
+.scoreboard .container .score-p2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  font-weight: bold;
+  padding: .25em 0;
+}
+
+.scoreboard .container .tie-break {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  font-weight: bold;
+  padding: .3em 0;
+  margin-top: 1em;
+  font-size: 18px;
+  border: 3px solid #7c7c7c;
+  border-radius: .2em;
+}
+
+.scoreboard .container .match-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-weight: bold;
+}
+
+.scoreboard .container .match-btn .m-btn {
+  padding: .3em .5em;
+  margin-top: 1em;
+  font-size: 18px;
+  border: 3px solid #7c7c7c;
+  border-radius: .2em;
+}
+
+.scoreboard .container .player-btn {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background: #0ba6bb;
+  padding: 3em .7em;
+  margin-top: 2em;
+  border: 3px solid white;
+  color: white;
+  border-radius: .2em;
+}
+
+.scoreboard .next-btn a {
+  background-color: var(--primary-color);
+  text-decoration: none;
+  color: white;
+  padding: .6em 1.3em;
+  font-size: 1em;
+  border-radius: 1em;
+  font-weight: bold;
+  display: inline-block;
+  position: relative;
+  margin-top: .5em;
+}
+/*# sourceMappingURL=main.css.map */
