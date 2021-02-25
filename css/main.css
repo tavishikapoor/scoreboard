@@ -1,30 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+
+
 html body {
   background-color: #000;
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
   margin: 0;
 }
 
 body .table {
-
-  background-color: #155A37;
+  background-color: #682a8c;
   color: white;
   margin: 40% auto;
+  border-radius: 10px;
   text-transform: uppercase;
   text-align: center;
-  font-size: 24px;
-  border-radius: 9px;
+  font-size: 25px;
   overflow: hidden;
+  font-weight: 700;
 }
 
-body .table .base-row {
-  background-color: #29926F !important;
-
-
+img {
+  height: 3em;
 }
 
-body .table .base-row2 {
-  background-color: #29926F !important;
+
+.base-row,
+.base-row2 {
+  background-color: #038C5A !important;
   color: yellow !important;
+  line-height: .1em;
+  text-align: center;
+}
+
+.player-name {
+  text-align: left;
+  font-size: 18px;
+  font-weight: 400;
 }
 
 .nowrap {
